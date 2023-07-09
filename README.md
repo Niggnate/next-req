@@ -192,12 +192,12 @@ nextreq.post('www.yourAPI.com', {
 })
 ```
 
-## License
-MIT
-
 ## Author
 
 👤 **Prince Khanyile**
 
 * Twitter: [@niggnate](https://twitter.com/niggnate)
 * LinkedIn: [@lindokuhle-khanyile-8301a2189](https://linkedin.com/in/lindokuhle-khanyile-8301a2189)
+
+## License
+MIT
