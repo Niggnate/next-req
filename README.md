@@ -55,7 +55,7 @@ Generating `GET` request with `PARAMS`
 ```javascript
 import nextreq from 'next-req'
 
-nextreq.get('www.yourapi.com/user/session=true').then(response => {
+nextreq.get('www.yourapi.com/user?session=true').then(response => {
     const payload = response.payload
 
     // TODO - payload
@@ -110,7 +110,7 @@ import nextreq from 'next-req'
 
 const getPayload = async () => {
     try {
-        const request = await nextreq.get('www.yourAPI.com/session=true')
+        const request = await nextreq.get('www.yourAPI.com/user?session=true')
         const payload = request.payload
         
         // TODO - with payload
@@ -128,7 +128,7 @@ import nextreq from 'next-req'
 
 const postPayload = async () => {
     try {
-        const request = await nextreq.post('www.yourAPI.com', {
+        const request = await nextreq.post('www.yourAPI.com/user', {
             params: {
                 setSession: true
             }
