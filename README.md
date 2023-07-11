@@ -41,7 +41,9 @@ npm install next-req
 import nextreq from 'next-req'
 
 nextreq.get('www.yourapi.com').then(response => {
-    // TODO - response
+    const payload = response.payload
+
+    // TODO - payload
 }).catch(error => {
     // TODO - error
 }).finally(() => {
@@ -54,7 +56,9 @@ Generating `GET` request with `PARAMS`
 import nextreq from 'next-req'
 
 nextreq.get('www.yourapi.com/user/session=true').then(response => {
-    // TODO - response
+    const payload = response.payload
+
+    // TODO - payload
 }).catch(error => {
     // TODO - error
 }).finally(() => {
@@ -71,7 +75,9 @@ nextreq.get('www.yourapi.com/user', {
         session: true
     }
 }).then(response => {
-    // TODO - response
+    const payload = response.payload
+
+    // TODO - payload
 }).catch(error => {
     // TODO - error
 }).finally(() => {
@@ -84,9 +90,13 @@ Generating `POST` request
 import nextreq from 'next-req'
 
 nextreq.post('www.yourAPI.com', {
-    setSession: true
+    params: {
+        setSession: true
+    }
 }).then(response => {
-    // TODO - response
+    const payload = response.payload
+
+    // TODO - payload
 }).catch(error => {
     // TODO - error
 }).finally(() => {
@@ -119,7 +129,9 @@ import nextreq from 'next-req'
 const postPayload = async () => {
     try {
         const request = await nextreq.post('www.yourAPI.com', {
-            session: true
+            params: {
+                setSession: true
+            }
         })
         const payload = request.payload
         
