@@ -211,7 +211,7 @@ nextreq.post('www.yourapi.com/user', {
 👤 **Prince Khanyile**
 
 * Twitter: [@niggnate](https://twitter.com/niggnate)
-* LinkedIn: [@lindokuhle-khanyile-8301a2189](https://linkedin.com/in/lindokuhle-khanyile-8301a2189)
+* LinkedIn: [@prince-khanyile-8301a2189](https://www.linkedin.com/in/prince-khanyile-8301a2189/)
 
 ## License
 MIT
