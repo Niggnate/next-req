@@ -38,8 +38,7 @@ npm install next-req
 ## Usage
 
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 nextreq.get('www.yourapi.com').then(response => {
     const payload = response.payload
@@ -54,8 +53,7 @@ nextreq.get('www.yourapi.com').then(response => {
 
 Generating `GET` request with `PARAMS`
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 nextreq.get('www.yourapi.com/user?session=true').then(response => {
     const payload = response.payload
@@ -70,8 +68,7 @@ nextreq.get('www.yourapi.com/user?session=true').then(response => {
 
 Generating `GET` request with params of config
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 nextreq.get('www.yourapi.com/user', {
     params: {
@@ -90,8 +87,7 @@ nextreq.get('www.yourapi.com/user', {
 
 Generating `POST` request
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 nextreq.post('www.yourapi.com/user', {
     params: {
@@ -110,8 +106,7 @@ nextreq.post('www.yourapi.com/user', {
 
 Generating API request using `async/await` on function using `GET`
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 const getPayload = async () => {
     try {
@@ -129,8 +124,7 @@ const getPayload = async () => {
 
 Generating API request using `async/await` on function using `POST`
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 const postPayload = async () => {
     try {
@@ -155,8 +149,7 @@ const postPayload = async () => {
 Generating interceptors
 
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 // Add request interceptor
 nextreq.interceptors.request.use(configs => {
@@ -180,8 +173,7 @@ nextreq.interceptors.response.use(
 
 ## Error handling
 ```javascript
-import nextreq from 'next-req' // TS
-import nextreq from 'next-req/lib/build' // JS
+import nextreq from 'next-req'
 
 nextreq.post('www.yourapi.com/user', {
     params: {
