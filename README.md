@@ -210,7 +210,7 @@ nextreq.post('www.yourapi.com/user', {
 
 👤 **Prince Khanyile**
 
-* Twitter: [@niggnate](https://twitter.com/niggnate)
+* Twitter: [@Lwazi_Khanyile](https://twitter.com/lwazi_khanyile)
 * LinkedIn: [@prince-khanyile-8301a2189](https://www.linkedin.com/in/prince-khanyile-8301a2189/)
 
 ## License
